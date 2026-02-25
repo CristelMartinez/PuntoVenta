@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.main-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.sidebar .nav-link {
+    color: black;
+}
+
+.sidebar .nav-link.active {
+    background-color: #B0C4DE;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #B0C4DE;
+}
+
+header {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.sidebar {
+    border-radius: 0 10px 10px 0;
+}
+
+main {
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    margin-left: -15px;
+}
